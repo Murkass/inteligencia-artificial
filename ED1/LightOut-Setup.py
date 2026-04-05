@@ -1,0 +1,1 @@
+#TODO: fazer as areas onde todos os dados de inicialização são chamados

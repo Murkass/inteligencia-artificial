@@ -1,0 +1,1 @@
+#Este é o init, que deve ser chamado para que os testes sejam iniciados

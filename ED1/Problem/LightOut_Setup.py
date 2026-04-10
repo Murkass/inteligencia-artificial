@@ -37,8 +37,11 @@ class LightOutSetup:
             print(' '.join(str(cell) for cell in row))
         print()
     
-    def regenerate(self, initial_moves=None):
-        """Regenera um novo tabuleiro aleatório com os mesmos parâmetros"""
+    def regenerate(self, initial_moves=None, board_size=None):
+        """Regenera um novo tabuleiro aleatório.
+        Pode receber novo tamanho de tabuleiro e novo número de movimentos iniciais."""
+        if board_size is not None:
+            self.board_size = board_size
         if initial_moves is None:
             initial_moves = 2
         self.board = self.createBoard(initial_moves)

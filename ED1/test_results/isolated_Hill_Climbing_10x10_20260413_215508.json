@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-04-13T21:55:08.127726",
+  "config": {
+    "algorithm": "Hill Climbing",
+    "num_tests": 10,
+    "board_size": 10,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": true,
+    "interrupted": false,
+    "last_board_id": 10
+  },
+  "statistics": {
+    "successes": 7,
+    "failures": 3,
+    "min_moves": 1,
+    "avg_moves": 4.142857142857143,
+    "max_moves": 8,
+    "min_time": 0.008970260620117188,
+    "avg_time": 0.045231413841247556,
+    "max_time": 0.0690772533416748
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": true,
+      "moves": 1,
+      "explored": 2,
+      "time": 0.008970260620117188
+    },
+    {
+      "board_id": 2,
+      "success": true,
+      "moves": 2,
+      "explored": 3,
+      "time": 0.018797874450683594
+    },
+    {
+      "board_id": 3,
+      "success": true,
+      "moves": 3,
+      "explored": 4,
+      "time": 0.028796672821044922
+    },
+    {
+      "board_id": 4,
+      "success": true,
+      "moves": 4,
+      "explored": 5,
+      "time": 0.03829813003540039
+    },
+    {
+      "board_id": 5,
+      "success": true,
+      "moves": 5,
+      "explored": 6,
+      "time": 0.0477292537689209
+    },
+    {
+      "board_id": 6,
+      "success": true,
+      "moves": 6,
+      "explored": 7,
+      "time": 0.05280303955078125
+    },
+    {
+      "board_id": 7,
+      "success": false,
+      "explored": 7,
+      "time": 0.06088089942932129
+    },
+    {
+      "board_id": 8,
+      "success": true,
+      "moves": 8,
+      "explored": 9,
+      "time": 0.0690772533416748
+    },
+    {
+      "board_id": 9,
+      "success": false,
+      "explored": 7,
+      "time": 0.05989527702331543
+    },
+    {
+      "board_id": 10,
+      "success": false,
+      "explored": 8,
+      "time": 0.06706547737121582
+    }
+  ]
+}

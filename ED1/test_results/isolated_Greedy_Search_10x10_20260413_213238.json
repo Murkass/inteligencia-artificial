@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-04-13T21:32:38.597158",
+  "config": {
+    "algorithm": "Greedy Search",
+    "num_tests": 10,
+    "board_size": 10,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": true,
+    "interrupted": false,
+    "last_board_id": 10
+  },
+  "statistics": {
+    "successes": 10,
+    "failures": 0,
+    "min_moves": 1,
+    "avg_moves": 6.1,
+    "max_moves": 14,
+    "min_time": 0.008799314498901367,
+    "avg_time": 0.054395198822021484,
+    "max_time": 0.12514638900756836
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": true,
+      "moves": 1,
+      "explored": 2,
+      "time": 0.008799314498901367
+    },
+    {
+      "board_id": 2,
+      "success": true,
+      "moves": 2,
+      "explored": 3,
+      "time": 0.020458459854125977
+    },
+    {
+      "board_id": 3,
+      "success": true,
+      "moves": 3,
+      "explored": 4,
+      "time": 0.029939651489257812
+    },
+    {
+      "board_id": 4,
+      "success": true,
+      "moves": 4,
+      "explored": 5,
+      "time": 0.038736581802368164
+    },
+    {
+      "board_id": 5,
+      "success": true,
+      "moves": 5,
+      "explored": 6,
+      "time": 0.04378342628479004
+    },
+    {
+      "board_id": 6,
+      "success": true,
+      "moves": 6,
+      "explored": 7,
+      "time": 0.05691099166870117
+    },
+    {
+      "board_id": 7,
+      "success": true,
+      "moves": 7,
+      "explored": 8,
+      "time": 0.06043052673339844
+    },
+    {
+      "board_id": 8,
+      "success": true,
+      "moves": 8,
+      "explored": 9,
+      "time": 0.06871867179870605
+    },
+    {
+      "board_id": 9,
+      "success": true,
+      "moves": 11,
+      "explored": 12,
+      "time": 0.09102797508239746
+    },
+    {
+      "board_id": 10,
+      "success": true,
+      "moves": 14,
+      "explored": 16,
+      "time": 0.12514638900756836
+    }
+  ]
+}

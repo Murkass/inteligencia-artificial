@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-04-13T21:32:12.869659",
+  "config": {
+    "num_tests": 20,
+    "board_size": 7,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": false,
+    "interrupted": true,
+    "last_algorithm": "DFS",
+    "last_board_id": 1
+  },
+  "statistics": {
+    "BFS": {
+      "min_moves": 1,
+      "avg_moves": 1.0,
+      "max_moves": 1,
+      "min_time": 0.08910083770751953,
+      "avg_time": 0.08910083770751953,
+      "max_time": 0.08910083770751953,
+      "successes": 1,
+      "failures": 0
+    },
+    "DFS": {
+      "min_moves": "-",
+      "avg_moves": "-",
+      "max_moves": "-",
+      "min_time": "-",
+      "avg_time": "-",
+      "max_time": "-",
+      "successes": 0,
+      "failures": 0
+    },
+    "Hill Climbing": {
+      "min_moves": "-",
+      "avg_moves": "-",
+      "max_moves": "-",
+      "min_time": "-",
+      "avg_time": "-",
+      "max_time": "-",
+      "successes": 0,
+      "failures": 0
+    },
+    "Simulated Annealing": {
+      "min_moves": "-",
+      "avg_moves": "-",
+      "max_moves": "-",
+      "min_time": "-",
+      "avg_time": "-",
+      "max_time": "-",
+      "successes": 0,
+      "failures": 0
+    },
+    "A*": {
+      "min_moves": "-",
+      "avg_moves": "-",
+      "max_moves": "-",
+      "min_time": "-",
+      "avg_time": "-",
+      "max_time": "-",
+      "successes": 0,
+      "failures": 0
+    },
+    "Greedy Search": {
+      "min_moves": "-",
+      "avg_moves": "-",
+      "max_moves": "-",
+      "min_time": "-",
+      "avg_time": "-",
+      "max_time": "-",
+      "successes": 0,
+      "failures": 0
+    }
+  },
+  "raw_results": {
+    "BFS": {
+      "times": [
+        0.08910083770751953
+      ],
+      "moves": [
+        1
+      ],
+      "explored": [
+        36
+      ],
+      "successes": 1,
+      "failures": 0
+    },
+    "DFS": {
+      "times": [],
+      "moves": [],
+      "explored": [],
+      "successes": 0,
+      "failures": 0
+    },
+    "Hill Climbing": {
+      "times": [],
+      "moves": [],
+      "explored": [],
+      "successes": 0,
+      "failures": 0
+    },
+    "Simulated Annealing": {
+      "times": [],
+      "moves": [],
+      "explored": [],
+      "successes": 0,
+      "failures": 0
+    },
+    "A*": {
+      "times": [],
+      "moves": [],
+      "explored": [],
+      "successes": 0,
+      "failures": 0
+    },
+    "Greedy Search": {
+      "times": [],
+      "moves": [],
+      "explored": [],
+      "successes": 0,
+      "failures": 0
+    }
+  }
+}

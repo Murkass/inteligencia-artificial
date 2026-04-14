@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-04-13T21:32:59.457026",
+  "config": {
+    "algorithm": "A*",
+    "num_tests": 10,
+    "board_size": 10,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": true,
+    "interrupted": false,
+    "last_board_id": 10
+  },
+  "statistics": {
+    "successes": 10,
+    "failures": 0,
+    "min_moves": 1,
+    "avg_moves": 5.5,
+    "max_moves": 10,
+    "min_time": 0.007742643356323242,
+    "avg_time": 0.05558056831359863,
+    "max_time": 0.11466574668884277
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": true,
+      "moves": 1,
+      "explored": 2,
+      "time": 0.007742643356323242
+    },
+    {
+      "board_id": 2,
+      "success": true,
+      "moves": 2,
+      "explored": 3,
+      "time": 0.025502681732177734
+    },
+    {
+      "board_id": 3,
+      "success": true,
+      "moves": 3,
+      "explored": 4,
+      "time": 0.029061317443847656
+    },
+    {
+      "board_id": 4,
+      "success": true,
+      "moves": 4,
+      "explored": 7,
+      "time": 0.05741167068481445
+    },
+    {
+      "board_id": 5,
+      "success": true,
+      "moves": 5,
+      "explored": 6,
+      "time": 0.04860210418701172
+    },
+    {
+      "board_id": 6,
+      "success": true,
+      "moves": 4,
+      "explored": 5,
+      "time": 0.03914833068847656
+    },
+    {
+      "board_id": 7,
+      "success": true,
+      "moves": 7,
+      "explored": 9,
+      "time": 0.06890177726745605
+    },
+    {
+      "board_id": 8,
+      "success": true,
+      "moves": 10,
+      "explored": 15,
+      "time": 0.11466574668884277
+    },
+    {
+      "board_id": 9,
+      "success": true,
+      "moves": 9,
+      "explored": 10,
+      "time": 0.07872319221496582
+    },
+    {
+      "board_id": 10,
+      "success": true,
+      "moves": 10,
+      "explored": 11,
+      "time": 0.08604621887207031
+    }
+  ]
+}

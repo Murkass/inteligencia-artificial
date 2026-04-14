@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-04-13T20:53:49.146479",
+  "config": {
+    "algorithm": "Simulated Annealing",
+    "num_tests": 10,
+    "board_size": 5,
+    "initial_difficulty": 3
+  },
+  "statistics": {
+    "successes": 1,
+    "failures": 9,
+    "min_moves": 19641,
+    "avg_moves": 19641.0,
+    "max_moves": 19641,
+    "min_time": 16.146963834762573,
+    "avg_time": 27.868833446502684,
+    "max_time": 29.298327207565308
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": false,
+      "explored": 45600,
+      "time": 29.09089159965515
+    },
+    {
+      "board_id": 2,
+      "success": false,
+      "explored": 45600,
+      "time": 29.298327207565308
+    },
+    {
+      "board_id": 3,
+      "success": false,
+      "explored": 45600,
+      "time": 29.240724563598633
+    },
+    {
+      "board_id": 4,
+      "success": false,
+      "explored": 45600,
+      "time": 29.230747938156128
+    },
+    {
+      "board_id": 5,
+      "success": true,
+      "moves": 19641,
+      "explored": 25239,
+      "time": 16.146963834762573
+    },
+    {
+      "board_id": 6,
+      "success": false,
+      "explored": 45600,
+      "time": 29.169068813323975
+    },
+    {
+      "board_id": 7,
+      "success": false,
+      "explored": 45600,
+      "time": 29.243862628936768
+    },
+    {
+      "board_id": 8,
+      "success": false,
+      "explored": 45600,
+      "time": 29.085496425628662
+    },
+    {
+      "board_id": 9,
+      "success": false,
+      "explored": 45600,
+      "time": 29.03987455368042
+    },
+    {
+      "board_id": 10,
+      "success": false,
+      "explored": 45600,
+      "time": 29.14237689971924
+    }
+  ]
+}

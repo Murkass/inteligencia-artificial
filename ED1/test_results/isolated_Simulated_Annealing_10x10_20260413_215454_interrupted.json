@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-04-13T21:54:54.263029",
+  "config": {
+    "algorithm": "Simulated Annealing",
+    "num_tests": 10,
+    "board_size": 10,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": false,
+    "interrupted": true,
+    "last_board_id": 4
+  },
+  "statistics": {
+    "successes": 0,
+    "failures": 3,
+    "min_moves": "-",
+    "avg_moves": "-",
+    "max_moves": "-",
+    "min_time": 326.5084753036499,
+    "avg_time": 327.28116782506305,
+    "max_time": 328.42230463027954
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": false,
+      "explored": 45600,
+      "time": 326.91272354125977
+    },
+    {
+      "board_id": 2,
+      "success": false,
+      "explored": 45600,
+      "time": 328.42230463027954
+    },
+    {
+      "board_id": 3,
+      "success": false,
+      "explored": 45600,
+      "time": 326.5084753036499
+    }
+  ]
+}

@@ -20,7 +20,7 @@ def colors(text, color_code):
     return f"\033[{color_code}m{text}\033[0m"
 
 class Menu:
-    def __init__(self, board_size=10, initial_moves=3):
+    def __init__(self, board_size=3, initial_moves=1):
         self.board_size = board_size
         self.initial_moves = initial_moves
         self.setup = LightOutSetup(board_size, initial_moves)

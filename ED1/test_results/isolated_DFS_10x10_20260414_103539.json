@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-04-14T10:35:39.842368",
+  "config": {
+    "algorithm": "DFS",
+    "num_tests": 5,
+    "board_size": 10,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": true,
+    "interrupted": false,
+    "last_board_id": 5
+  },
+  "statistics": {
+    "successes": 0,
+    "failures": 5,
+    "min_moves": "-",
+    "avg_moves": "-",
+    "max_moves": "-",
+    "min_time": 10.000180959701538,
+    "avg_time": 10.0028968334198,
+    "max_time": 10.007064819335938
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": false,
+      "explored": 1301,
+      "time": 10.000180959701538
+    },
+    {
+      "board_id": 2,
+      "success": false,
+      "explored": 1310,
+      "time": 10.002479553222656
+    },
+    {
+      "board_id": 3,
+      "success": false,
+      "explored": 1308,
+      "time": 10.00159239768982
+    },
+    {
+      "board_id": 4,
+      "success": false,
+      "explored": 1298,
+      "time": 10.003166437149048
+    },
+    {
+      "board_id": 5,
+      "success": false,
+      "explored": 1309,
+      "time": 10.007064819335938
+    }
+  ]
+}

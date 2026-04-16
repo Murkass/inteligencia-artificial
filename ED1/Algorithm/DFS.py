@@ -18,11 +18,11 @@ class DFS:
     5. Repete até encontrar solução ou pilha vazia
     """
     
-    def __init__(self, max_depth=20, timeout=10):
+    def __init__(self, max_depth=20, timeout=600):
         """
         Args:
             max_depth: Profundidade máxima para limitar busca infinita (padrão: 20)
-            timeout: Tempo máximo em segundos para a busca (padrão: 10s)
+            timeout: Tempo máximo em segundos para a busca (padrão: 600s)
         """
         self.max_depth = max_depth
         self.timeout = timeout

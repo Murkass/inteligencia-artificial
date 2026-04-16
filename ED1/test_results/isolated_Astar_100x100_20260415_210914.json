@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-04-15T21:09:14.806275",
+  "config": {
+    "algorithm": "A*",
+    "num_tests": 1,
+    "board_size": 100,
+    "initial_difficulty": 1
+  },
+  "status": {
+    "completed": true,
+    "interrupted": false,
+    "last_board_id": 1
+  },
+  "statistics": {
+    "successes": 1,
+    "failures": 0,
+    "min_moves": 1,
+    "avg_moves": 1.0,
+    "max_moves": 1,
+    "min_time": 52.356534481048584,
+    "avg_time": 52.356534481048584,
+    "max_time": 52.356534481048584
+  },
+  "details": [
+    {
+      "board_id": 1,
+      "success": true,
+      "moves": 1,
+      "explored": 2,
+      "time": 52.356534481048584
+    }
+  ]
+}
